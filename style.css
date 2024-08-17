@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headlogo{
+    margin: 8px 8px;
+    padding: 0;
+    align-items: center;
+
+}
+
+#login{
+
+    margin: 10px;
+    height: fit-content;
+padding: 10px 20px;
+color: white;
+background-color: rgb(240, 178, 8);
+border: 2px solid rgb(240, 178, 8);
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+.main{
+    display: flex;
+}
+
+.card-group{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+input{
+   
+    height: 30px;
+    width:100%;
+    padding: 10px;
+}
+
+.span1{
+    color: rgb(62, 62, 248);
+}
+
+
+.card-group p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: #151515;
+    color: white;
+    justify-content: space-around;
+}
+
+.navbar-nav .nav-item:first-child{
+    margin-left: 250px;
+    
+}
+.navbar-nav .nav-item{
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+
+.signout{
+
+    margin-left: 300px;
+    height: fit-content;
+padding: 10px 20px;
+color: white;
+background-color: rgb(240, 178, 8);
+border: 2px solid rgb(240, 178, 8);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn1{
+    
+    height: fit-content;
+    width: fit-content;
+padding: 10px 20px;
+color: white;
+background-color: rgb(240, 178, 8);
+border: 2px solid rgb(240, 178, 8);
+border-radius: 4px;
+}
+
+.btn2{
+    height: fit-content;
+    width: fit-content;
+padding: 10px 20px;
+color: white;
+background-color:#151515;
+border: 2px solid #151515;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.map{
+    height:450px;
+    width: 45%;
+     
+}
+.home1{
+    width: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+
+.para{
+    text-align: justify;color: white; margin-top: 40px;margin: 60px;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    .main{
+        display: block;
+
+    }
+
+    .map{
+        margin: 20px;
+        width: 80%;
+    }
+
+    .home1{
+        margin: 20px;
+        font-size: 60px;
+    }
+
+    .para{
+        margin: 30px;
+    }
+    .card-group{
+        margin-top: 30%;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+
+    .signout{
+        margin: 0;
+    }
+
+    .card1{
+        margin: 20px;
+        width: 300px;
+    }
+
+    .div1{
+        display: block;
+
+    }
+}
