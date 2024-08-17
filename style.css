@@ -204,6 +204,12 @@ cursor: pointer;
         text-align: center;
     }
 
+    .col-2{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 
  
 }
