@@ -127,6 +127,12 @@ cursor: pointer;
     text-align: center;font-size: 18px;font-weight: 700;color: white;
 }
 
+.card1{
+    margin: 20px;
+    
+    width: 400px;
+}
+
 
 
 @media only screen and (max-width: 800px){
@@ -162,7 +168,8 @@ cursor: pointer;
 
     .card1{
         margin: 20px;
-        width: fit-content;
+        
+        width: 350px;
     }
 
     .div1{
