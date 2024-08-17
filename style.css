@@ -171,6 +171,12 @@ cursor: pointer;
         
         width: 350px;
     }
+    input{
+   
+        height: 30px;
+        width:300px;
+        
+    }
 
     .div1{
         display: block;
