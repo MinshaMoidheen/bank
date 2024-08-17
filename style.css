@@ -63,7 +63,7 @@ input{
 }
 .navbar-nav
 {
-    margin-left: 200px;
+    margin-left: 100px;
     justify-content: space-around;
 }
 
@@ -74,8 +74,7 @@ input{
 }
 
 
-.signout{
-
+.d-flex button .signout{
     margin-left: 300px;
     height: fit-content;
 padding: 10px 20px;
