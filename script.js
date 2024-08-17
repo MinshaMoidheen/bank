@@ -7,7 +7,7 @@ function signup(){
 }
 
 function signout(){
-    window.location=',/index.html'
+    window.location='./index.html'
 }
 
 
