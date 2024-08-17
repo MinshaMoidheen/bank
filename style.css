@@ -160,12 +160,7 @@ cursor: pointer;
     .para{
         margin: 30px;
     }
-    .card-group{
-        margin-top: 30%;
-        margin-left: 50px;
-        margin-right: 50px;
-        
-    }
+    
 
     .signout{
         margin: 0;
@@ -176,10 +171,7 @@ cursor: pointer;
         width: 400px;
     }
 
-    .card2{
-        
-        width: 400px;
-    }
+    
     input{
    
         height: 30px;

@@ -6,8 +6,8 @@ function signup(){
     window.location='./register.html'
 }
 
-function signout(){
-    window.location='./index.html'
+function logout(){
+     window.location='./register.html'
 }
 
 
