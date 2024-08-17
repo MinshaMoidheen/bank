@@ -42,7 +42,7 @@ cursor: pointer;
 input{
    
     height: 30px;
-    width:100%;
+    width:350px;
     padding: 10px;
 }
 
@@ -162,7 +162,7 @@ cursor: pointer;
 
     .card1{
         margin: 20px;
-        width: 30px;
+        width: fit-content;
     }
 
     .div1{
@@ -185,9 +185,5 @@ cursor: pointer;
     .home2{
         text-align: center;
     }
-    .signout{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+ 
 }
