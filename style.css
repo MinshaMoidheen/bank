@@ -169,6 +169,11 @@ cursor: pointer;
         margin: 20px;
         width: 400px;
     }
+
+    .card2{
+        margin: 20px;
+        width: 400px;
+    }
     input{
    
         height: 30px;
@@ -200,5 +205,7 @@ cursor: pointer;
     .home2{
         text-align: center;
     }
+
+
  
 }
