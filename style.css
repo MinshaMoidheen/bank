@@ -63,7 +63,6 @@ input{
 }
 .navbar-nav
 {
-    margin-left: 100px;
     justify-content: space-around;
 }
 
@@ -74,16 +73,7 @@ input{
 }
 
 
-.d-flex button .signout{
-    margin-left: 300px;
-    height: fit-content;
-padding: 10px 20px;
-color: white;
-background-color: rgb(240, 178, 8);
-border: 2px solid rgb(240, 178, 8);
-border-radius: 4px;
-cursor: pointer;
-}
+
 
 .div1{
     display: flex;
@@ -137,9 +127,7 @@ cursor: pointer;
     text-align: center;font-size: 18px;font-weight: 700;color: white;
 }
 
-.fa-right-from-bracket{
-    
-}
+
 
 @media only screen and (max-width: 800px){
 
@@ -195,6 +183,11 @@ cursor: pointer;
     }
 
     .home2{
+        text-align: center;
+    }
+    .signout{
+        justify-content: center;
+        align-items: center;
         text-align: center;
     }
 }
